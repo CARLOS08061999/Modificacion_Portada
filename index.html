@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ShoeShop</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+    </head>
+
+    <header>
+        <nav class="navbar navbar-expand-lg bg-light fixed-top">
+            <div class="container-fluid"> <!--Inicio del contenedor div-->
+                <a class="navbar-brand" href="#">
+                    <img src="img/tenis.jpg" alt="" width="30" height="24">
+                    ShoeShop</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <!--lista de navegacion-->
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link active" href="#">Mujeres</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Hombres</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Niños</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Iniciar sesion</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Busqueda</a></li>
+                    </ul>
+                </div><!--Cierre del div  menu-->
+            </div><!--Cierre del div contenedor principal-->
+        </nav>
+
+    </header>
+    <hr>
+
+    <section>
+        <!--salida de imagenes-->
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel"> <!--contenedor principal de imagenes-->
+            <div class="carousel-inner"> <!--contenedor interno-->
+                <div class="carousel-item active"> <!--imagen 1-->
+                    <img src="img/imagen1.png" class="d-block w-100">
+
+                </div>
+
+                <div class="carousel-item"> <!--imagen 2-->
+                    <img src="img/imagen2.png" class="d-block w-100">
+
+                </div>
+
+                <div class="carousel-item"> <!--imagen 3-->
+                    <img src="img/imagen3.png" class="d-block w-100">
+
+                </div>
+
+                <div class="carousel-item"> <!--imagen 4-->
+                    <img src="img/imagen4.png" class="d-block w-100">
+
+                </div>
+                <!--botones adelante y atras-->
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                
+
+            </div>
+
+        </div>
+        <!--fin de imagenes-->
+
+        <!--ele,emtos para mostrar los cuadros de elementos-->
+        <div class="conteiner p-5">
+            <div class="row">
+
+
+                <!--Crear tres columnas-->
+                <div class="col-lg-3"> <!--columna 1-->
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/tenis_1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text">Sé la mejor versión de ti con los mejores conjuntos, calzado y accesorios para entrenar. Encuentra la innovación que buscas en la Tienda Oficial. Adquiérelos ahora en nike.com. Envíos de 1 a 4 días. Tienda Oficial. Envíos Gratis. Modelos: Air Max, Air Force 1.</p>
+                        </div>
+                      </div>
+
+                </div>
+                <div class="col-lg-3"> <!--columna 2-->
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/tenis_2.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text">El 18 de agosto de 1949, Adi Dassler fundó adidas con el deseo de ayudar a mejorar el rendimiento de los deportistas. Setenta años después, adidas no solo ha dejado huella en el deporte y en los atletas, sino también en la moda, la cultura, la sostenibilidad y en muchos otros ámbitos. Acompáñanos en un viaje en el tiempo y descubre la historia de adidas y los estilos que han influido en nuestras vidas hasta hoy.</p>
+                        </div>
+                      </div>
+
+                </div>
+                <div class="col-lg-3"> <!--columna 3-->
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/tenis_3.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text">La marca mexicana de ropa deportiva Charly domina, incluso por encima de firmas internacionales, dentro del futbol mexicano. Con 6 equipos en su portafolios, es la compañía que más clubes patrocina en la Liga MX, teniendo entre sus filas a algunos destacados, como Pachuca, León y Santos.</p>
+                        </div>
+                      </div>
+
+                </div>
+                <div class="col-lg-3"> <!--columna 1-->
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/portada.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text">Los tenis son un calzado que están diseñados para dar confort a nuestros pies a la hora de usarlos, los tenis se diseñaron para realizar deporte, pero nos sirven también, para diferentes actividades. Ventajas de utilizar tenis: Les dan comodidad a nuestros pies.</p>
+                        </div>
+                      </div>
+
+            </div>
+
+        </div>
+        
+    </section>
+
+    <footer class="container-fluid bg-light text-center p-3">
+        <p>© 2022 Tenis, Inc. Todos los derechos reservados.</p>
+
+
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    </body>
+</html>
